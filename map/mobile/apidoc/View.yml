@@ -258,6 +258,12 @@ properties:
     type: Number
     default: NORMAL_TYPE
 
+  - name: zOrderOnTop
+    summary: Controls wether the map view's surface is placed on top of its window.
+    type: Boolean
+    default: False
+    availability: creation
+
   - name: region
     summary: |
         A dictionary specifying the location and zoom level of the map.
